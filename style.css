@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/arvin');
+@import url('https://fonts.cdnfonts.com/css/slabtallx-medium');
 
 html {
     height: 100%;
@@ -6,21 +7,22 @@ html {
 
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     background-image: url(./images/pexels-mart-production-7577941.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Arvin Light', sans-serif;
     min-height:100%;
+    margin: 0;
 }
 
 .card {
+    font-family: 'Arvin Light', sans-serif;
     display: flex;
     margin: auto;
     padding: 1em;
     flex-flow: column;
-    flex: 0 0 35em;
+    flex: 0;
     background: rgba(255, 255, 255, 0.24);
     border-radius: 30px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -47,6 +49,7 @@ body {
 
 .personal-info {
     padding-left: 0;
+    padding-right: 4em;
     flex: 1 1 100px;
 }
 
@@ -88,4 +91,14 @@ button {
     backdrop-filter: blur(8.7px);
     -webkit-backdrop-filter: blur(8.7px);
     border: 1px solid rgba(255, 255, 255, 0.48);
+}
+footer {
+    background-color: rgb(248, 246, 255);
+    min-width: 100%;
+    text-align: right;
+    font-family: 'SlabTallX', sans-serif;
+}
+
+footer p{
+    margin: 0;
 }
