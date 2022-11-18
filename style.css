@@ -1,9 +1,12 @@
+@import url('https://fonts.cdnfonts.com/css/arvin');
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(./images/pexels-mart-production-7577941.jpg);
     background-size: cover;
+    font-family: 'Arvin Light', sans-serif;
 }
 
 .card {
@@ -46,7 +49,14 @@ body {
 }
 
 .info-entry {
+    font-family: 'Arvin Light', sans-serif;
     display: flex;
+    align-items: center;
+}
+
+.info-entry i {
+    padding-left: 1em;
+    font-family: 'Arvin Light', sans-serif;
 }
 
 .my-photo {
