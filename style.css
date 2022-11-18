@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/pexels-photo-6985265.jpeg);
+}
+
+.card {
+    display: flex;
+    margin: 23em;
+    padding: 1em;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.7px);
+    -webkit-backdrop-filter: blur(8.7px);
+    border: 1px solid rgba(255, 255, 255, 0.48);
+}
+
+.personal-info {
+    flex: 1 1 100px;
+}
+
+.info-entry {
+    display: flex;
+}
+
+.my-photo {
+    width: auto;
+    height: 200px;
+    border-radius: 30px;
+}
+
+button {
+    padding: 2em;
+    margin: 2em;
+}
