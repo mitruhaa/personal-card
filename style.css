@@ -57,6 +57,7 @@ body {
 .info-entry i {
     padding-left: 1em;
     font-family: 'Arvin Light', sans-serif;
+    color: rgb(60, 60, 60);
 }
 
 a {
