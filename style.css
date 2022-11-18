@@ -1,21 +1,23 @@
 @import url('https://fonts.cdnfonts.com/css/arvin');
 
+html {
+    height: 100%;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(./images/pexels-mart-production-7577941.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Arvin Light', sans-serif;
+    min-height:100%;
 }
 
 .card {
     display: flex;
     margin: auto;
-    margin-left: 18em;
-    margin-right: 18em;
-    margin-top: 8em;
-    margin-bottom: 5em;
     padding: 1em;
     flex-flow: column;
     flex: 0 0 35em;
