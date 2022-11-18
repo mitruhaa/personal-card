@@ -59,6 +59,11 @@ body {
     font-family: 'Arvin Light', sans-serif;
 }
 
+a {
+    color: rgb(60, 60, 60);    
+    text-decoration: none;
+}
+
 .my-photo {
     width: auto;
     height: 200px;
